@@ -244,7 +244,7 @@ namespace Configurator
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Configurator";
+            this.Text = "Configurator 1.0.0";
             this.ResumeLayout(false);
 
             }

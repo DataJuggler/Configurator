@@ -5,7 +5,8 @@ I use this project to update Visual Studio on our Test Server, so I can debug ag
 same environment (same web.config, folder permissions and database).
 
 This program makes a very big assumption, and that is the source and target folders
-must be the same on each machine.
+must be the same on each machine. If they are not, you will need to do
+a search and replace in the ConfigOutput.txt file for each file entry.
 
 Example:
 
@@ -13,9 +14,11 @@ My home pc has this path:
 
 c:\Projects\MyClient\MyProject\MySolution.sln
 
-And so does my client's dev server.
+And my client's dev server.
 
-c:\Projects\MyClient\MyProject\MySolution.sln
+c:\Projects\MyProject\MySolution.sln
+
+So I had to replace out the MyClient entry from the 
 
 --
 

@@ -5,6 +5,8 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>Abacus.ico</ApplicationIcon>
+    <Description>This project is used to deplay app.config and web.config files, that might be ignored
+in a repo thanks to git ignore.</Description>
   </PropertyGroup>
 
   <ItemGroup>

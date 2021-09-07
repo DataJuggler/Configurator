@@ -58,8 +58,6 @@ namespace Configurator
             /// </summary>
             private void PackButton_Click(object sender, EventArgs e)
             {
-                
-
                 // Set the input properties
                 OutputFolder = OutputFolderControl.Text;
                 SolutionFolder = SolutionFolderControl.Text;
@@ -483,12 +481,12 @@ namespace Configurator
                             deploymentFile = new DeploymentFile();
 
                             // Set the source
-                            deploymentFile.Source = line.Text;
+                            deploymentFile.Target = line.Text;
                         }
                         else if (row % 3 == 1)
                         {
                             // Set the source
-                            deploymentFile.Target = line.Text;
+                            deploymentFile.Source = line.Text;
 
                             // Add this deploymentFile
                             deploymentFiles.Add(deploymentFile);
