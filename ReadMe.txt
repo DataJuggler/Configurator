@@ -92,7 +92,15 @@ parse the text and for lots of other things.
 --
 Status of the project:
 
-Pack has been tested. Unpack is about to be.
+Pack has been tested and works.
+
+Unpack has been tested and works.
+
+Side Note: My work project's repo compiled once all the necessary config files were included, so I will call this project a success (unless you go by the number 
+of clones, stars, mentions or other interactions. It worked for my purpose, fame and fortune is not what I desire (or I would be doing anything other than
+giving away free code).
+
+Let me know if this project is worth the price of free (please keep in my mind the free icon and free image in case you were leaning towards no).
 
 
 
