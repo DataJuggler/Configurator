@@ -6,7 +6,7 @@ same environment (same web.config, folder permissions and database).
 
 This program makes a very big assumption, and that is the source and target folders
 must be the same on each machine. If they are not, you will need to do
-a search and replace in the ConfigOutput.txt file for each file entry.
+a search and replace in the ConfigOutput.txt file for any file entries that are not the same.
 
 Example:
 
@@ -17,8 +17,6 @@ c:\Projects\MyClient\MyProject\MySolution.sln
 And my client's dev server.
 
 c:\Projects\MyProject\MySolution.sln
-
-So I had to replace out the MyClient entry from the 
 
 --
 
