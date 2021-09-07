@@ -511,7 +511,7 @@ namespace Configurator
                         }
 
                         // Display the text
-                        StatusLabel.Text = "Finished copying " + filesCopied + "config files.";
+                        StatusLabel.Text = "Finished copying " + filesCopied + " config files.";
 
                         // if singular
                         if (filesCopied == 1)
