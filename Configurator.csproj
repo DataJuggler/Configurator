@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>Abacus.ico</ApplicationIcon>
     <Description>This project is used to deplay app.config and web.config files, that might be ignored
@@ -10,7 +10,7 @@ in a repo thanks to git ignore.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DataJuggler.Win.Controls" Version="5.8.3" />
+    <PackageReference Include="DataJuggler.Win.Controls" Version="6.2.0" />
   </ItemGroup>
 
   <ItemGroup>
